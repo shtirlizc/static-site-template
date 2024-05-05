@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* * {
+  &::selection {
+    background-color: var(--color-primary);
+    color: var(--white);
+  }
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  /* font-family: var(--font-primary);
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--white);
+  background-color: var(--dark); */
+  font-synthesis: none;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100dvh;
+}
+
+body.overlay {
+  overflow: hidden;
+}
+
+/* tablet */
+@media (width >= 768px) {
+  body.overlay {
+    overflow: visible;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+:is(button, button:focus) {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+:is(button, input[type='text'], textarea) {
+  font-family: var(--font-primary);
+}

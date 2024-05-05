@@ -1,0 +1,63 @@
+/* stylelint-disable comment-no-empty */
+
+/* До 559px - mobile */
+
+/* 560-767px - wide mobile */
+
+/* 768-990px - tablet */
+
+/* 991-1199px - desktop */
+
+/* 1200-1599px - widescreen */
+
+/* 1600px и выше - fullhd */
+
+/* mobile */
+@media (width < 560px) {
+  /*  */
+}
+
+/* wide-mobile */
+@media (width >= 560px) {
+  /*  */
+}
+
+/* wide-mobile-only */
+@media (width >= 560px) and (width < 768px) {
+  /*  */
+}
+
+/* tablet */
+@media (width >= 768px) {
+  /*  */
+}
+
+/* tablet-only */
+@media (width >= 768px) and (width < 991px) {
+  /*  */
+}
+
+/* desktop */
+@media (width >= 991px) {
+  /*  */
+}
+
+/* desktop-only */
+@media (width >= 991px) and (width < 1200px) {
+  /*  */
+}
+
+/* widescreen */
+@media (width >= 1200px) {
+  /*  */
+}
+
+/* widescreen-only */
+@media (width >= 1200px) and (width < 1600px) {
+  /*  */
+}
+
+/* fullhd */
+@media (width >= 1600px) {
+  /*  */
+}
